@@ -1,0 +1,28 @@
+@function generate-random-stars ($screen-width, $color, $density){
+  
+  $h-shadow: random($screen-width);
+  $v-shadow: random($screen-width);
+  
+  $stars: '#{$h-shadow}px #{$v-shadow}px #{$color}';
+	@for $i from 2 through $density {
+      $h-shadow: random($screen-width);
+      $v-shadow: random($screen-width);
+    
+    $stars: '#{$stars}, #{$h-shadow}px #{$v-shadow}px #{$color}';
+	}
+	@return unquote($stars);
+}
+
+@mixin stars-content($screen-width, $color, $density, $speed, $delay) {
+  	width: 2px;
+  	height: 2px;
+	border-radius: 50%;
+	opacity: 0;
+	box-shadow: generate-random-stars($screen-width, $color, $density);
+	animation-name: glowing-stars;
+  	animation-duration: $speed+s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	animation-delay: $delay+s;
+}

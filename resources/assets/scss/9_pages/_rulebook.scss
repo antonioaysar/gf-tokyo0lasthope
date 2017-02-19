@@ -1,0 +1,22 @@
+.wrap-rulebook {
+	padding: calculate-rem(16);
+	height: 100%;
+    overflow: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rulebook-index ul {
+	list-style: none;
+	padding: 0 calculate-rem(10);
+}
+
+.rulebook-index h6 {
+	margin: 0;
+}
+
+
+.rulebook-content-title {
+	@include font-size(1);
+	padding: calculate-rem(10);
+	font-weight: 600;
+}

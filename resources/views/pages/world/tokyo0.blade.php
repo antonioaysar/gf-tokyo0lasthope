@@ -1,0 +1,42 @@
+<center><div class=titoli>La città</div></center>
+<div class=block>I distretti di Tokyo sono fra loro divisi da canali d'acqua che ne segnano il confine, su cui si affacciano gli altissimi grattacieli della città inframmezzati da numerosi parchi, specchi d'acqua; ogni canale risulta percorribile tramite apposite imbarcazioni di piccole e modeste dimensioni o moto d'acqua, rendendo così il traffico della città non solo incentrato su mezzi su gomma o rotaie, ma anche acquatiche. <br>
+Dall'alto la struttura che maggiormente spicca, grazie anche ai riflessi arcobaleno che genera grazie alla sua particolare struttura, è il <i>Palazzo di Cristallo</i>, che spicca nel distretto di Shinagawa, una delle punte della città di Tokyo che cerca di chiudersi a mezzaluna con un altro lembo di terra, allungandosi artificialmente per chiudere un lembo di mare che viene definito come “interno”.<br>
+Al di fuori della città, dagli edifici più alti, è possibile scorgere solo un immenso deserto disabitato ed una desolazione senza eguali.<br><br>
+
+A proteggere il clima della città e far in modo che esso sia conservato e stabile, c'è un'immensa barriera <u>artificiale</u> che le menti più brillanti di Tokyo hanno progettato e i migliori ingegneri hanno costruito. Essa è sostenuta e resa attiva grazie a diversi edifici-torri sparsi per la città, mentre i cinque fondamentali sono situati nei cinque distretti esterni: rappresentano i vari punti nevralgici per la vita della barriera. Come detto, essa è trasparente e immensa. Non impedisce il passaggio di oggetti o persone: il suo scopo è rendere vivibile ed equilibrato il clima dentro Tokyo evitando che esso risenta violentemente della variazione climatica esterna.
+<br><br>
+
+<center><div class=titoli>Tecnologia </div></center>
+In trecento anni, la tecnologia si è trovata costretta ad evolversi ad un ritmo spaventoso per dover sopperire alla mancanza di materie prime e di tutti i benefici che un mondo globalizzato possedeva. <br>
+Questo ha fatto sì che venissero riprese le vecchie conoscenze e portate al limite, eliminando quasi del tutto i monitor fissi che risultano come delle patine di gel su cui i cristalli formano immagini e quasi completamente touch, piccoli telefoni, ologrammi e minuscoli altoparlanti da una potenza equiparabile a quella di una diffusione sonora delle precedenti casse, tecnologie al plasma utilizzate unicamente dalla polizia, tecnologie elettriche ricaricabili per quanto riguarda tutti i mezzi di trasporto privati e quella magnetica per quanto riguarda i mezzi pubblici, per evitare di inquinare eccessivamente la città e rendere l'aria invivibile. <br>
+A questo proposito, nella <i>Death Valley</i>, esiste una zona interamente artificiale fatta di giganteschi alberi di plastica e metallo, con congegni adatti a raccogliere la luce del sole ed eolica, oltre che addetta alla raccolta delle acque piovane per la loro purificazione ed il loro riutilizzo come acqua non potabile. <br><br>
+
+<center><div class=titoli>Mezzi di trasporto </div></center>
+
+Ogni luogo della città è raggiungibile mediante mezzi di trasporto pubblici all'avanguardia che facilitano lo smaltimento del traffico locale cittadino. <br><br>
+<b>Bus</b>: Per garantire una corretta efficienza ed evitare di rimanere incastrati all'interno del traffico cittadino, gli bus si sono evoluti: sono delle macchine che camminano su rotaie, più alte della media delle macchine in modo che queste possano passarvi sotto e costituendo dei veri e propri "tunnel che camminano", che si fermano esclusivamente alle pedane di discesa attrezzate con degli elevatori per i disabili e delle scale per i lavoratori normali. <br><br>
+
+<b>Treno </b>: I treni sono tutti a levitazione magnetica, ossia non hanno bisogno di ruote a cui aggrapparsi ai binari, ma sono naturalmente attratti da essi. Questo rende questi messi i più veloci, efficienti e sicuri rispetto agli autobus e sono anche i mezzi preferiti dei cittadini. Si dividono in due categorie: quelli sopraelevati e quelli sotterranei <br><br>
+
+<b>Sopraelevati</b>: panoramici e più costosi. Raggiungono solo le parti centrali della città e non si estendono verso i quartieri esterni. <br><br>
+<b>Metropolitana</b>: sotterranea e la più diffusa. Raggiunge ogni zona della città e si divide in ben otto linee diverse. <br><br>
+
+
+<center><div class=titoli>Intelligenza artificiale </div></center>
+Negli anni, per ovviare al rendimento produttivo necessario alla sussistenza e per concentrare lo sforzo del lavoro umano su mestieri che comprendessero un uso più ampio della mente, sono stati sviluppate delle macchine che si collegano agli oggetti di casa e funzionano anche da immagazzinamento dati, oltre che come veri e propri sostituti della forza lavoro umana. <br>
+Questi Robot dalle fattezze umane, sono definiti <i>Persocom</i> ed hanno una pupilla iridescente piuttosto visibile che li distingue dai normali esseri umani. La loro superficie rimane morbida al tatto, seppure non trasmetta la stessa sensazione della pelle umana ed i capelli somigliano più a quelli delle bambole. <br>
+Possono essere impostati per essere domestici, commessi, autisti o altri lavori legati unicamente a servigi pratici degli umani di categoria abbiente, ma non possono essere impiegati per lavori pesanti a causa della fragilità della loro struttura.  <br><br>
+
+<center><div class=titoli>Bionica </div></center>
+La Bionica è un campo tecnologico che si fonde con la medicina più avanzata attualmente conosciuta all'interno della città. Creata anticamente dal dottor <u>Asahiro Mihara</u>, un esperto nel campo della robotica e dei collegamenti neurologici umani a dispositivi bionici creata dal uso stesso team, si è evoluta fino ad essere in grado di risolvere completamente il problema dell'infermità umana a livello motorio, per garantire una possibilità di normalità a tutti quanti. <br>
+Gli elementi Bionici si sono evoluti sostituendo di tanto in tanto organi più complessi oltre che semplici arti, che hanno assunto sempre di più la consistenza e la morbidezza della pelle e della carne umana, e grazie alle più moderne tecnologie le cicatrici degli innesti risultano quasi del tutto invisibili. <br>
+Nonostante questo, non è possibile ovviare al problema della temperatura degli arti bionici che resteranno comunque freddi al tatto. <br>
+Questi studi, in associazione con la <u>T-Robot</u>, hanno anche permesso di sviluppare la tecnologia dei<i> Persocom. </i></div><br>
+
+<center><div class=titoli>Aziende importanti</div></center>
+<div class=block><center><div class=titoli>C.A.R. </div></center>
+Centro Assistenza Risvegliati: tra le persone più predisposte alla solidarietà e all'interesse comune, ce ne è un folto gruppo che ha dato vita ad un'agenzia che agevola il risveglio di coloro che escono dalla cristallizzazione e hanno bisogno praticamente di tutto. Esistono uffici e filiali in tutti i Distretti di Tokyo, il servizio è gratuito. Occorre per comprendere chi si è stati o chi si vuole essere: molti hanno bisogno di documenti legali che non necessariamente rispecchieranno quelli vecchi e originali ma che da quel momento in poi saranno ufficiali e definitivi per la persona. Presso C.A.R. è anche possibile tentare di rimettersi in contatto con persone conosciute o capire che fine abbiano fatto, sempre se registrate e risvegliate precedentemente. C.A.R. funziona come anagrafe e come supporto su ogni fronte per chiunque lo desideri. Esiste fin dall'anno 0, dunque tutte le persone risvegliate in un modo o nell'altro sono state registrate e chi non lo è stato non è in possesso di documenti validi. <b>Direttrice C.A.R. : Chinyere Essien.</b><br><br>
+
+<center><div class=titoli>T-Robotic</div></center>
+Azienda privata maturata e cresciuta nel tempo, sempre in prima linea per l'evoluzione tecnologica. Si occupa della creazione, modifica, implementazione, vendita e riparazione di Intelligenze Artificiali. La sua Sede Centrale è a <i>Tekunorojī Street</i>, ma possiede diverse filiali (almeno una per distretto) dove è possibile avere assistenza tecnica e/o assistenza per l'acquisto. I suoi clienti sono facoltosi e benestanti e si promette sempre di offrire il meglio. Nel tempo ha schiacciato piccoli rivali vari ed è rimasta la più affidabile sul territorio cittadino, sebbene qualcun'altra replichi con minor risultati. 
+<b>Presidente Attuale: Richard Grant </b></div>

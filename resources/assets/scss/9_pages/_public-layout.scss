@@ -1,0 +1,181 @@
+.wrap-public-layout {
+	
+	@include container;
+	text-shadow: 1px 1px rgba(0, 0, 0, 1);
+	@include font-size(0.9);
+
+}
+
+.wrap-public-layout header {
+	@include span(12 last);		
+}
+
+.wrap-public-layout main {
+	@include span(12 last);
+	height: 80vh;
+}
+
+.wrap-public-layout footer {
+	@include span(12);
+	@include cf;
+	display: none;
+}
+
+.wrap-public-layout nav li a {
+	text-transform: uppercase;
+}
+
+.menu-icon-bar {
+	background-color: $jungle-mist;
+	opacity: 0.5;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.menu-icon-bar + .menu-icon-bar {
+	margin-top: 4px;
+}
+
+.menu {
+	clear: both;
+	max-height: 0;
+	transition: max-height 1s ease-out;
+	background-color: rgba(0, 0, 0, 0.6);
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	line-height: 2.2;
+}
+
+/* Hamburger Menu */
+
+.menu-icon {
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	position: relative;
+	user-select: none;
+	margin-right: calculate-rem(10);
+}
+
+.menu-icon .navicon {
+	  background: $jungle-mist;
+	  display: block;
+	  height: 2px;
+	  position: relative;
+	  transition: background .2s ease-out;
+	  width: 18px;
+}
+
+.menu-icon .navicon:before,
+.menu-icon .navicon:after {
+	  background: $jungle-mist;
+	  content: '';
+	  display: block;
+	  height: 100%;
+	  position: absolute;
+	  transition: all .2s ease-out;
+	  width: 100%;
+}
+
+.menu-icon .navicon:before {
+	top: 5px;
+}
+
+.menu-icon .navicon:after {
+	top: -5px;
+}
+
+.menu-btn {
+	display: none;
+}
+
+.menu-btn:checked ~ nav ul.menu {
+	max-height: 240px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+	background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .fa-moon-o {
+	color: $summer-sky;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before {
+	transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+	transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+	top: 0;
+}
+
+@include susy-breakpoint($bp-small) {
+	
+	.wrap-public-layout main {
+		position: absolute;
+		transform: translateY(calculate-rem(40));
+	}
+	
+}
+
+
+@include susy-breakpoint($bp-medium) {	
+	
+	.wrap-public-layout main {
+		position: relative;
+		transform: initial;	
+	}
+	
+	.wrap-public-layout footer {
+		display: block;
+	}
+	
+	.wrap-public-layout footer ul {
+		padding: 0;
+	}
+	
+	.menu {
+		clear: none;
+		float: right;
+		max-height: none;
+		background-color: transparent;
+	}
+	
+	.menu-btn:checked ~ nav ul.menu {
+		background-color: transparent;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	nav {
+		overflow: auto;
+		display: block;
+	}
+
+	nav li {
+		display: inline-block;
+		padding: 0 25px;
+	}
+	
+	.t0-nav-group-toggle {
+    	display: none;
+  	}
+
+}
+	
+
+
+

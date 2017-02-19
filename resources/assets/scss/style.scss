@@ -1,0 +1,82 @@
+// Character type for the stylesheet
+
+@charset "utf-8";                    
+
+// 1.Settings
+
+@import "1_settings/_colours.scss";
+@import "1_settings/_config.scss";
+@import "1_settings/_spacing.scss";
+@import "1_settings/_typography.scss";
+@import "1_settings/_variables.scss";
+
+// 2.Tools
+
+@import "2_tools/_f_em-value.scss";
+@import "2_tools/_f_space.scss";
+@import "2_tools/_m_aspect-ratio.scss";
+@import "2_tools/_m_clearfix.scss";
+@import "2_tools/_m_font-size.scss";
+@import "2_tools/_m_inline-block.scss";
+@import "2_tools/_m_wrapper.scss";
+@import "2_tools/_m_alignments.scss";
+@import "2_tools/_m_animations.scss";
+@import "susy.scss";
+
+// 3.Generic
+
+@import "3_generic/_normalize.scss";
+@import "3_generic/_base.scss";
+
+// 4.Base
+
+@import "4_base/_buttons.scss";
+@import "4_base/_forms.scss";
+@import "4_base/_headings.scss";
+@import "4_base/_images.scss";
+@import "4_base/_links.scss";
+@import "4_base/_lists.scss";
+@import "4_base/_paragraphs.scss";
+@import "4_base/_section.scss";
+@import "4_base/_tables.scss";
+
+// 5.Objects
+
+@import "5_objects/_box.scss";
+@import "5_objects/_flag.scss";
+@import "5_objects/_icon.scss";
+@import "5_objects/_list-block.scss";
+@import "5_objects/_list-inline.scss";
+@import "5_objects/_media.scss";
+@import "5_objects/_nav.scss";
+@import "5_objects/_triangles.scss";
+
+
+// 6.Components
+
+@import "6_components/_footer.scss";
+@import "6_components/_header.scss";
+@import "6_components/_hero.scss";
+@import "6_components/_slider.scss";
+@import "6_components/_testimonials.scss";
+@import "6_components/_wraps.scss";
+
+// 7.Trumps
+
+@import "7_trumps/_alignment.scss";
+@import "7_trumps/_visually-hidden.scss";
+
+
+// 8 Vendor
+
+//@import "8_vendor/animatewithsass/animate.scss";
+//@import "8_vendor/all.scss";
+@import "font-awesome.scss";
+@import "breakpoint.scss";
+
+
+// 9 Pages
+
+@import "9_pages/_public-layout";
+@import "9_pages/_welcome";
+@import "9_pages/_rulebook";

@@ -1,0 +1,10 @@
+@function calculate-rem($size) {
+  $remSize: $size/16+rem;
+  @return #{$remSize};
+}
+
+// Mobile-first Media Query Mixin
+@mixin for-large-screens($media) {
+    @media (min-width: $media/16+em) { @content; }
+}
+

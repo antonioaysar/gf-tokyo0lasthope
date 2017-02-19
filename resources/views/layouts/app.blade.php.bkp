@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--[if IE 9]>
+	<html class="ie9" lang="it">    <![endif]-->
+<!--[if IE 8]>
+	<html class="ie8" lang="it">    <![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>Tokyo 0 Last Hope | @yield('title')</title>
+    <meta name="description" content="@yield('description')">
+
+	<meta name="author" content="Giorgio Federici">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ elixir('assets/css/app.css') }}">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	      <![endif]-->
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = <?php echo json_encode([
+            'csrfToken' => csrf_token(),
+        ]); ?>
+    </script>
+
+</head>
+<body>
+    <div class="flex-center position-ref full-height @yield('starlight_class')">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @if (Auth::check())
+                        <a href="{{ url('/mappa') }}">Home</a>
+                    @else
+                        <a href="{{ url('/login') }}">Login</a>
+                        <a href="{{ url('/register') }}">Iscrizione</a>
+                    @endif
+                </div>
+            @endif
+
+            <div class="content">
+            	
+            	@yield('content')
+            	
+                <div class="links welcome-links-bottom">
+                	<a href="{{ url('/') }}">Home</a>
+                    <a href="{{ url('/regolamento') }}">@lang('messages.rulebook')</a>
+                   <a href="{{ url('/ambientazione') }}">@lang('messages.world')</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- JS -->
+
+	<script src="{{ elixir('assets/js/all.js') }}" type="text/javascript"></script>
+	
+	<script src="https://use.fontawesome.com/856b8a9539.js"></script>
+
+	<script type="text/javascript">
+		var tooltip_offsetX = 20;
+		var tooltip_offsetY = 20;
+	</script>
+</body>
+</html>
+
+/* 02/02/2016 */
+
+<div id="site-wrapper-id" class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="masthead clearfix"> @if (Route::has('login'))
+					<div class="inner">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<button id="burger" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+								</div>
+								<div id="navbar" class="navbar-collapse collapse">
+									<ul id="top-navbar-id" class="nav masthead-nav"> @if (Auth::check())
+										<li><a href="{{ url('/mappa') }}" class="fadeout">Home</a></li> @else
+										<li id="top-login-url"><a href="{{ url('/login') }}" class="fadeout">Login</a></li>
+										<li id="top-register-url"><a href="{{ url('/register') }}" class="fadeout">Iscrizione</a></li> @endif </ul>
+								</div>
+							</div>
+						</nav>
+					</div> @endif </div>
+				<div class="inner cover"> @yield('content') </div>
+				<div class="mastfoot">
+					<div class="inner">
+						<nav>
+							<div id="navbar" class="navbar-collapse collapse">
+								<ul class="nav mastfoot-nav">
+									<li><a href="{{ url('/') }}" class="fadeout">Home</a></li>
+									<li><a href="{{ url('/regolamento') }}" class="fadeout">@lang('messages.rulebook')</a></li>
+									<li><a href="{{ url('/ambientazione') }}" class="fadeout">@lang('messages.world')</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

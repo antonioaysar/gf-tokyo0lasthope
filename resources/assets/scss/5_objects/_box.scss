@@ -1,0 +1,32 @@
+
+
+#stars-group-1{
+	@include stars-content(1800, #fff, 200, 1, 0);
+}
+
+#stars-group-2{
+	@include stars-content(1800, #fff, 200, 1, 0.1);
+}
+
+#stars-group-3{
+	@include stars-content(1800, #fff, 200, 1, 0.2);
+}
+
+#stars-group-4{
+	@include stars-content(1800, #fff, 200, 1, 0.3);
+}
+
+#stars-group-5{
+	@include stars-content(1800, #fff, 200, 1, 0.4);
+}
+
+#stars-group-6{
+	@include stars-content(1800, #fff, 200, 1, 0.5);
+}
+
+
+@keyframes glowing-stars {
+    0%   {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}

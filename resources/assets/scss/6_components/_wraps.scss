@@ -1,0 +1,66 @@
+
+/*
+.hero-content {
+	@include span(12);
+	text-align: center;
+	text-shadow: 1px 1px rgba(0, 0, 0, 1);
+	
+	h1 {
+		margin: 1.6% 1.6%;
+		font-weight: 100;
+		line-height: 1.2;
+		
+		@include for-large-screens($large-screen){
+			br {
+				display: none;
+			}
+		}
+	}
+	
+	a {
+		text-transform: uppercase;
+		@include font-size(0.9);
+	}
+	
+	p {
+		@include font-size(0.9);
+		text-transform: uppercase;
+		margin: 1.6% 1.6%;
+	}
+	
+	nav {
+		display: none;
+		
+		li {
+			display: inline-block;
+		}
+		
+	}
+}
+
+.wrap-rulebook {
+	height: 80vh;
+	background: rgba(0, 0, 0, 0.7);
+	overflow: auto;
+}
+
+.rulebook-index {
+	@include span(4 of 12);
+	height: 80vh;
+	
+	h6 {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		margin-left: 1rem;
+	}
+	
+	ul {
+		list-style: none;
+	}
+}
+
+.rulebook-content {
+	@include span(8 of 12 last);
+	height: 80vh;
+}
+*/

@@ -1,0 +1,12 @@
+$susy: (
+	columns: 12, 
+	container: 1200/16+em,
+	gutters: 1/6,
+	global-box-sizing: border-box, 
+	//debug: (image: show),
+);
+
+$bp-small: 438/16+em;
+$bp-medium: 778/16+em;
+$bp-large: 60em;
+$breakpoint-set: true;

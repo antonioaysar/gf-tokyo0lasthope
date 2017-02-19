@@ -1,0 +1,45 @@
+.hero-content {
+	margin: calculate-rem(10);
+	text-align: center;
+}
+
+.hero-content h1 {
+	
+	font-weight: 100;
+	line-height: 1.2;
+	margin: calculate-rem(10);
+	
+	/*
+	@include for-large-screens($large-screen){
+		br {
+			display: none;
+		}
+	}*/
+}
+
+.hero-content h1 br {
+	
+	@include susy-breakpoint($bp-medium) {
+    	display: none;
+  	}
+	
+}
+	
+	
+.hero-content p {
+	@include font-size(0.9);
+	text-transform: uppercase;
+}
+
+
+@include susy-breakpoint($bp-small) {
+	
+	.hero-content {
+		transform: translateY(120px);	
+	}
+	
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}

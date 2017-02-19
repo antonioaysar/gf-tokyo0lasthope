@@ -1,0 +1,28 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600);
+
+// Pixels to Rems Mixin
+@mixin font-size($sizeValue: 1.6) {
+    font-size: ($sizeValue * 10) + px;
+    font-size: $sizeValue + rem;
+}
+
+
+//@font-face Mixin Simplified - Supports only modern browsers
+//IE8, IE7, IE6, old Safari in Android and iOS will gracefuly degrade to system fonts
+@mixin fontFace($font-family, $file-path) {
+   @font-face {
+      font: {
+         family: $font-family;
+         weight: normal;
+         style: normal;
+      }
+      //Modern Browsers
+      src: url('#{$file-path}.woff') format('woff');
+   }
+}
+
+//Call the font file
+//@include fontFace(raleway-light, 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9988/raleway-light');
+//@include fontFace(raleway-regular, 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9988/raleway-regular');
+//@include fontFace(raleway-bold, 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9988/raleway-bold');
